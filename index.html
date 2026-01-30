@@ -1,0 +1,196 @@
+
+<html>
+<head>
+    <title>Cars homepage</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+      .image-container {
+        position: relative;
+        
+        color: white;
+      }
+
+      .image-text {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      h1{
+        padding: 20px;
+        padding-bottom: 40px;
+      }
+      body{
+        
+        background-image: url(images/AI\ back2.jpg);
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+  <!-- section one starts here -->
+       <section class="row">
+        <div class="col-lg-12">
+          <!-- below tag element will hold all the content of the nav bar. -->
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a href="index.html" class="navbar-brand"><b class="text-success"><i>T-CARS</i></b></a>
+
+              <!-- Below is the toggler/hamburger button to either collapse/expand contents depending on the different screen sizes -->
+               <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+              <div id="navbarcontents" class="navbar-collapse collapse">
+                <div class="navbar-nav">
+                  <a href="index.html" class="nav-link active text-warning">Home</a>
+                  <a href="#" class="nav-link text-warning">About us</a>
+                  <a href="#" class="nav-link text-warning">Help center</a>
+                  
+                </div>
+              </div>
+           </nav>
+        </div>
+       </section> <br>
+      <!--section one ends here  --> 
+      <h1 class="text-success" style="text-decoration:underline"><center><i> Where Luxury,Adrenaline and Revolutionary are found!!</i></center></h1>
+      <section class="row">
+        <div class="col-lg-4">
+          <!-- carousel-it is used to move contents on the screen from one side to the other.A carousel has three main sections i.e 1.the inner/wrapper;holds the contents to be displayed,2.control;we have the left control and right control,3.indicators;they indicate which content is currently visible on the screen. -->
+           <!-- Below is the div which will hold all the contents of the carousel -->
+          <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+            <!-- Below is the div that will hold all the images -->
+             <div class="carousel-inner">
+              <!-- below is the div with the first image -->
+               <div class="carousel-item active">
+                <img src="images/Jesko.jpg" alt="Jesko" class="d-block w-90" height="680px">
+               </div>
+               <!-- below is the div with the second image -->
+               <div class="carousel-item">
+                <img src="images/M3 E46.jpg" alt="M3 E46" class="d-block w-90" height="680px">
+               </div>
+               <div class="carousel-item">
+                <img src="images/Porshe 911.jpg" alt="Porshe 911" class="d-block w-100" height="680px">
+               </div>
+               <div class="carousel-item">
+                <img src="images/merc black series.png" alt="Mercedes Black Series" class="d-block w-100" height="680px">
+               </div>
+             </div>
+
+             <!-- below are the controls -->
+              <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon bg-warning"></span></a>
+              <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon bg-warning"></span></a>
+          </div>
+        </div>
+        <!-- background image and first paragraphs section begins here -->
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-success "><i>Welcome to T-Cars</i></h2>
+          <p style="color: chocolate;">At T-Cars, we believe that driving is more than just a means of transportation; it's an experience that ignites your senses and fuels your passion for the open road. That's why we are dedicated to providing you with a curated selection of high-performance vehicles that embody the perfect blend of power, precision, and luxury.</p>
+          <p style="color: chocolate;">Whether you're a seasoned car enthusiast or simply looking to elevate your driving experience, T-Cars has something for everyone. Our collection features a diverse range of makes and models, from sleek sports cars to rugged SUVs, all meticulously maintained and ready to hit the road.</p>
+          <p style="color: chocolate;">Join us at T-Cars and discover the thrill of driving like never before. Your dream car is just a click away!</p>
+          <div class="image-container">
+            <img src="images/background.jpg" alt="Car Background" height="418px" width="100%">
+            <div class="image-text">
+               We exist to suit your driving needs.
+            </div>
+          </div>
+         
+        </div> 
+        <!-- background image and first paragraphs section ends here -->
+       </section> <hr>
+       <!-- section two ends here --> 
+        <section class="row">
+          <h2 class="text-center" style="text-decoration: overline; color:gold;">Our Collection</h2>
+          <h3 style="color: chocolate; text-decoration: underline;">T de Supecars</h3>
+          
+           <div class="col-lg-3">
+           <img src="images/Audi RS8.jpg" alt="Audi RS8" height="300px" width="100%">
+           </div>
+           <div class="col-lg-9">
+          <dl>
+            <dt class="text-info">Audi RS8</dt>
+            <dd style="color: palegoldenrod; font-size: 20px;">The Audi RS8 is a high-performance luxury sedan that combines power, precision, and comfort. It features a powerful V10 engine and advanced aerodynamics for an exhilarating driving experience.</dd>
+          </dl>
+          <dl>
+            <dt class="text-info">Production Date</dt>
+            <dd style="color: palegoldenrod; font-size: 20px;">The Audi RS8 was first produced in 2016 as a competitor to the BMW M8 and Mercedes-AMG E-Class.Number of units produced was limited to 1,000 in the first year but later increased to 2,000 in subsequent years.</dd>
+          </dl>
+          <dl>
+            <dt class="text-info">Price</dt>
+            <dd style="color: palegoldenrod; font-size: 20px;">The starting price of the Audi RS8 is approximately $130,000,but with our additional specs such as the custom T-spoiler,one of one T-interior or as we call it the Terior;the cost can go up to $150,000.</dd>
+           </div>
+
+          </section> <hr>
+          <section class="row">
+            <div class="col-lg-3">
+            <img src="images/lamborghini Reveulto.jpg" alt="Lamborghini Reveulto" height="300px" width="100%">
+            </div>
+            <div class="col-lg-9">
+            <dl>
+              <dt class="text-info">Lamborghini Reveulto</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The Lamborghini Reveulto is a futuristic supercar that pushes the boundaries of design and performance. It features a hybrid powertrain, advanced aerodynamics, and a striking exterior that turns heads wherever it goes.</dd>
+              <dt class="text-info">Production Date</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The Lamborghini Reveulto was first introduced in 2023 and is currently in production.Over 1000 units have been produced so far.</dd> 
+              <dt class="text-info">Price</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The starting price of the Lamborghini Reveulto is approximately $250,000.Increase the specs and the price can go up to $300,000.</dd>
+          </section> <hr>
+          <section class="row">
+            <div class="col-lg-3">
+            <img src="images/mclaren 765LT.jpg" alt="McLaren 765LT" height="300px" width="100%">
+            </div>
+            <div class="col-lg-9">
+            <dl>
+              <dt class="text-info">McLaren 765LT</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The McLaren 765LT is a high-performance supercar that delivers exceptional speed and handling. It features a powerful V6 engine centered within the car, advanced aerodynamics, and a lightweight carbon fiber body for an unmatched driving experience.</dd>
+              <dt class="text-info">Production Date</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The McLaren 765LT was first produced in 2021 and is currently in production.Over 1500 units have been produced so far.</dd> 
+              <dt class="text-info">Price</dt>
+              <dd style="color: palegoldenrod; font-size: 20px;">The starting price of the McLaren 765LT is approximately $225,000.With additional specs,the price can go up to $275,000.</dd>
+          </section> <hr>
+          <section class="row">
+            <h3 class="text-center" style="color: coral;">le bikes</h3>
+            <div class="col-lg-6 text-center">
+              <div class="card shadow">
+                <div class="card-header bg-dark" style="color: chocolate;">
+                  Ducatti Panigale V4
+                </div>
+                <div class="card-body bg-dark">
+                  <img src="images/bike2.jpg" alt="bike2" height="400px" width="100%">
+                </div>
+                <div class="card-footer bg-dark">
+                  <p style="color: chocolate;">The Ducati Panigale V4 is a high-performance motorcycle that combines cutting-edge technology with Italian craftsmanship. It features a powerful V4 engine, advanced electronics, and a sleek design that embodies speed and agility.</p>
+                  <p class="text-info">Price: $25,000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <div class="card shadow">
+                <div class="card-header bg-dark" style="color: chocolate;">
+                  Kawasaki Ninja H2
+                </div>
+                <div class="card-body bg-dark">
+                  <img src="images/bike1.jpg" alt="bike1" height="400px" width="100%">
+                </div>
+                <div class="card-footer bg-dark">
+                  <p style="color: chocolate;">The Kawasaki Ninja H2 is a high-performance motorcycle that pushes the limits of speed and power. It features a supercharged engine, advanced aerodynamics, and cutting-edge technology for an exhilarating riding experience.</p>
+                  <p class="text-info">Price: $30,000</p>
+                </div>
+              </div>
+
+            </div>
+          </section> <br>
+          <footer class="row bg-dark">
+            <div class="col-lg-12">
+              <h4 class="text-center text-danger"><i>Contact us</i></h4>
+              <p class="text-center text-secondary">Phone number: +123 456 7890</p>
+              <p class="text-center text-secondary">Email: info@tsupecars.com</p>
+              <p class="text-center text-secondary">Address: 123 Luxury Avenue, Supercar City</p>
+              <p class="text-center text-secondary">Social Media: @tsupecars-ig,tsupes-x,tsupecars-youtube</p>
+            </div>
+          </footer>
+</body>
+</html>
